@@ -2,10 +2,10 @@
     <p>State-of-the-art Vision Transformer 🤗 for image classification, High Accuracy 🚀</p>
 </h3>
 
-### Fashion Product Images Dataset [Link](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset)
-44k products with multiple category labels, descriptions and high-res images.
+## Fashion product images dataset
+44k products with multiple category labels, descriptions and high-res images. [Link](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset)
 
-
+##### Training result
 |           Epoch            |   Training Loss  | Validation Loss | Accuracy |
 |:-------------------------:|:-------------------------------:|:------:| :------:|
 |       1        |         0.082200          |  0.059544   | 0.992506 |
