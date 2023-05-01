@@ -5,7 +5,7 @@
 ## Fashion product images dataset
 44k products with multiple category labels, descriptions and high-res images. [Link](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset)
 
-##### Training result
+#### Training result
 |           Epoch            |   Training Loss  | Validation Loss | Accuracy |
 |:-------------------------:|:-------------------------------:|:------:| :------:|
 |       1        |         0.082200          |  0.059544   | 0.992506 |
@@ -19,7 +19,6 @@
 # Evaluate the model on the test set
 >>> outputs = trainer.predict(test_data)
 >>> outputs.metrics
-[{'test_loss': 0.03034268133342266, 'test_accuracy': 0.9954722872755659, 'test_runtime': 102.7551, 'test_samples_per_second': 62.333, 'test_steps_per_second': 15.59}
-]
+[{'test_loss': 0.03034268133342266, 'test_accuracy': 0.9954722872755659, 'test_runtime': 102.7551}]
 ```
 
