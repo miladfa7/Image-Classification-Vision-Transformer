@@ -23,7 +23,7 @@
 ```
 
 ## 5 Flower types classification dataset
-Flower Images for Classification (1k images for each flower types)[Link](https://www.kaggle.com/datasets/kausthubkannan/5-flower-types-classification-dataset)
+Flower Images for Classification (1k images for each flower types) [Link](https://www.kaggle.com/datasets/kausthubkannan/5-flower-types-classification-dataset)
 
 #### Training result
 |           Epoch            |   Training Loss  | Validation Loss | Accuracy |
@@ -44,3 +44,25 @@ Flower Images for Classification (1k images for each flower types)[Link](https:/
 [{'test_loss': 0.13792766630, 'test_accuracy': 0.98933333, 'test_runtime': 12.5379}]
 ```
 
+## Brain MRI Images dataset
+It conists of MRI scans of two classes: NO - no tumor, encoded as 0  YES - tumor, encoded as 1
+  [Link](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection)
+
+#### Training result
+|           Epoch            |   Training Loss  | Validation Loss | Accuracy |
+|:-------------------------:|:-------------------------------:|:------:| :------:|
+|       1        |         No log	          |  0.533956  | 0.769231 |
+|       2        |         No log		         |  0.454096  | 0.876923 |
+|       3        |         No log	          |  0.389601   | 0.969231 |
+|       4        |         0.369800          |  0.347400  | 0.984615 |
+|       5        |         0.369800          |  0.336078   | 0.984615 |
+
+
+```python
+>>> trainer.train()
+
+# Evaluate the model on the test set
+>>> outputs = trainer.predict(test_data)
+>>> outputs.metrics
+[{'test_loss': 0.347400099, 'test_accuracy': 0.984615384, 'test_runtime': 0.8473}]
+```
