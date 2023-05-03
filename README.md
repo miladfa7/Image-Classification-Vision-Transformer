@@ -3,7 +3,7 @@
 </h3>
 
 ## Fashion product images dataset
-44k products with multiple category labels, descriptions and high-res images. [Link](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset)
+44k products with multiple category labels, descriptions and high-res images. [Dataset Link](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset) | | [Kaggle Notebook](https://www.kaggle.com/code/miladfa7/vision-transformer-99-5-accuracy-embedding)
 
 #### Training result
 |           Epoch            |   Training Loss  | Validation Loss | Accuracy |
@@ -23,7 +23,7 @@
 ```
 
 ## 5 Flower types classification dataset
-Flower Images for Classification (1k images for each flower types) [Link](https://www.kaggle.com/datasets/kausthubkannan/5-flower-types-classification-dataset)
+Flower Images for Classification (1k images for each flower types) [Dataset Link](https://www.kaggle.com/datasets/kausthubkannan/5-flower-types-classification-dataset) | [Kaggle Notebook](https://www.kaggle.com/code/miladfa7/flower-classification-with-transformer-99-acc)
 
 #### Training result
 |           Epoch            |   Training Loss  | Validation Loss | Accuracy |
@@ -46,7 +46,7 @@ Flower Images for Classification (1k images for each flower types) [Link](https:
 
 ## Brain MRI Images dataset
 It conists of MRI scans of two classes: NO - no tumor, encoded as 0  YES - tumor, encoded as 1
-  [Link](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection)
+  [Dataset Link](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection) | [Kaggle Notebook](https://www.kaggle.com/code/miladfa7/brain-tumor-detection-vision-transformer-99)
 
 #### Training result
 |           Epoch            |   Training Loss  | Validation Loss | Accuracy |
@@ -54,8 +54,8 @@ It conists of MRI scans of two classes: NO - no tumor, encoded as 0  YES - tumor
 |       1        |         No log	          |  0.533956  | 0.769231 |
 |       2        |         No log		         |  0.454096  | 0.876923 |
 |       3        |         No log	          |  0.389601   | 0.969231 |
-|       4        |         0.369800          |  0.347400  | 0.984615 |
-|       5        |         0.369800          |  0.336078   | 0.984615 |
+|       4        |         No log          |  0.347400  | 0.984615 |
+|       5        |         No log         |  0.336078   | 0.984615 |
 
 
 ```python
